@@ -1,0 +1,47 @@
+
+
+body{
+    margin-left: 100px;
+    background-color:#00ff00;
+}
+
+head{
+    margin-left: 30px
+}
+
+h1 {
+    color:#ff00ff;
+	font-family:"DIN Condensed Light", sans-serif;
+	font-size:80px;
+    line-height: 63px;
+	font-style:normal;
+    letter-spacing: 53px
+	font-weight:100;
+}
+.blogtitle {
+    color:#898baf;
+	font-family:"Museo Slab 300", serif;
+	font-size:16px;
+	font-style:normal;
+    line-height: 50%;
+	font-weight:300;
+    }
+
+.bloggin {
+        font-family: museo-sans, sans-serif;
+        font-size: 14px;
+        line-height: 18px;
+        font-style: normal;
+        font-weight: 300;
+        letter-spacing: normal;
+        margin-left:5px;
+        color: #000000;
+        }
+
+ .date {
+    font-family:"DIN 2014", sans-serif;
+	font-size:10px;
+    line-height:0pt;
+	font-style:normal;
+	font-weight:normal;
+ }
