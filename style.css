@@ -6,7 +6,7 @@ body{
 }
 
 head{
-    margin-left: 30px
+    margin-left: 20px
 }
 
 h1 {
@@ -15,28 +15,54 @@ h1 {
 	font-size:80px;
     line-height: 63px;
 	font-style:normal;
-    letter-spacing: 53px
-	font-weight:100;
+    letter-spacing: 6px;
+	font-weight: 100;   
 }
+
 .blogtitle {
     color:#898baf;
 	font-family:"Museo Slab 300", serif;
 	font-size:16px;
 	font-style:normal;
     line-height: 50%;
-	font-weight:300;
+	font-weight: 300;
     }
 
 .bloggin {
         font-family: museo-sans, sans-serif;
         font-size: 14px;
-        line-height: 18px;
+        width: 50%;
+        line-height: 19px;
         font-style: normal;
         font-weight: 300;
         letter-spacing: normal;
         margin-left:10px;
         color: #000000;
         }
+
+ a:link {
+            color: rgb(193, 219, 42);
+            background-color: transparent;
+            text-decoration: none;
+          }
+          
+          a:visited {
+            color: rgb(70, 127, 135);
+            background-color: transparent;
+            text-decoration: none;
+          }
+          
+          a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+          }
+          
+          a:active {
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
+          }
 
  .date {
     font-family:"DIN 2014", sans-serif;
