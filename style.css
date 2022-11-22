@@ -4,12 +4,12 @@
     }
 
 body{
-    margin-left: 100px;
+    margin-left: 30px;
     background-color:#63b7be;
 }
 
 article {
-    max-width: 90ch
+    max-width: 80ch
 }
 
 head{
