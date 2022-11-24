@@ -23,12 +23,18 @@ h1 {
 }
 
 .blogtitle {
-    color:#f0cc8e;
+    color:#166826;
 	font-family: 'Duru Sans', sans-serif;
 	font-size: 14px;
     line-height: 30%
     }
 
+    ul {font-family: 'Duru Sans', sans-serif;
+        font-size: 14px;
+        margin-left: 40px;
+        line-height: 130%;
+        padding: 0px;
+    }
 .bloggin {
     font-family: 'Duru Sans', sans-serif;
 	font-size: 14px;
@@ -43,7 +49,7 @@ h1 {
           }
           
           a:visited {
-            color: rgb(70, 127, 135);
+            color: rgb(141, 60, 141);
             background-color: transparent;
             text-decoration: none;
           }
