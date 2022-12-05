@@ -49,7 +49,54 @@
   </ul>
 <p class="bloggin">Next I want it to develop 'affinity', as in it tracks the number of times a Slack user does one of the very few things it 'likes' vs all the things that it doesn't</p>
 <p class="bloggin">I need a leaderboard aka dbase. <a href="https://kognise.dev">Kognise</a> recommends<a href="https://sequelize.org/"> sequelize</a> and SQLite, so for now, again, more software than programming. </p> 
-
 </article>
+
+
+<article>
+  <p class="date">11.25.22</p>
+  <p class="blogtitle">AS YOU ALREADY KNOW</p>
+      <p class="bloggin">For my Slack catbot leaderboard, I want to be logging every time a userID responds with [the things I've listed] + how many points I assigned to each. </p>
+        <p class="bloggin">It's been a long day at work already, but I'm determined. I tuck in eagerly to the sequelize docs.  The first line of the Introduction is jargon I can't map to anything relatable. I laugh at "As you already know, a model is an ES6 class." <i>IS IT? DO I ALREADY KNOW THIS?</i> </p>
+        <p class="bloggin">To prove that this is not a <i>me</i> problem, I search the doc for 'ES6', find it 3/4 down a "Model Basics" page with a link to MDN documentation, which doesn't even mention ES6 at all. The relief of discovering I am indeed over my head, rather than just <i>stupid</i> is soon overcome by my highly irritable impatience that I have yet to write - hell, TRY TO WRITE - a line of code.  I'm feeling hopeless already, but I read, I follow links, I try to understand code templates. I find examples of querying, but can't seem to find how to add data.  I need to start something. </p>
+      <p class="bloggin"> I scroll up to the setup section re: how to connect to a database (which doesn't even exist-- another point that is breaking my brain). If I can just get things talking with each other, I can end the evening with the smallest of wins. </p>
+      <p class="bloggin">Three are 3 options for connecting to your DB. One wants username etc, another its filepath. Off I go to SQlite to dL it or set it up or whatever one does... and...<a href="https://sqlite.org/zeroconf.html">"it" doesn't exist.</a> </p>
+      <p class="bloggin">I don't have time for this. Who has time for this? </p>
+      <p class="bloggin">I shut my laptop, blink away tears of frustation. I will laugh about this tomorrow. </p>
+</article>
+<article>
+  <p class="date">11.26.22</p>
+  <p class="blogtitle">storebought lasagne</p>
+      <p class="bloggin">Somewhere in this process - and without realizing it until now - I decide that my learning is going to be as 'pure' as possible. That is, because this-all is also to help me emphasize with our Hack Clubbers, I can't 'cheat' by just asking the many programmers in my midst for help. </p>
+        <p class="bloggin">But my colleagues are lovely and smart and helpful. They're curious about my journey. They're encouraging, and amused.
+        </p>
+      <p class="bloggin"> I tell one of the Hack Clubbers about my bad date with sequelize. She offers to sit and watch me try again. I offer dinner in trade. It's been a long day, and we don't have much time. I don't want specific help, I just want guidance as to where to look for help.</p>
+      <p class="bloggin"> I point to the options for setting up sequelize, and she says it's the second. I don't undertand why. I copy and paste the code in the documentation. I personalise it, but make a mistake on the file path. I still don't understand a filepath to something that doesn't exist. I still don't get where the data <i>goes</i> . But we move on.</p>
+      <p class="bloggin">She leaves after we talk through the logic of what I'm trying to do: a slackId says a 'thing'. We log their slackId and the points assigned to the thing. That's it. It seems very simple.</p>      
+</article>
+<article>
+  <p class="date">11.29.22</p>
+  <p class="blogtitle">HOW IS BABBY FORMED</p>
+      <p class="bloggin">Between the jargons of sequelize and slack, and my lack of any JS experience, I'm totally stumped.</p>
+        <p class="bloggin">I know so many beginners end up here. What do they do? How do they unblock themselves? I ask my colleagues for their stories and advice.
+        </p>
+      <p class="bloggin"> None can quite remember, but they all relate to my hurdles. One recommends that I truly need to undestand how things work, so should just start again and learn C. (I'm reminded of the binary lesson in class 0 of CS50). Another doesn't have concrete suggestions but to keep perservering and to document everything here - in detail. Another suggests our own Hack Club project, <a href="https://sprig.hackclub.com/gallery">Sprig</a> </p>
+      <p class="bloggin"> I'm glad to hear this, because one of the reasons we've spent months developing Sprig is it is a tool to help us improve as coders. And, it's in JS, which should help me with functions.</p>
+      <p class="bloggin">Catbot is once again temporarily abandoned. I've been feeling guiltly for not having set aside the time to make a Sprig game anyway, so this will finally give me the bump to get one done.</p>      
+</article>
+<article>
+  <p class="date">12.02.22</p>
+  <p class="blogtitle">You are standing in an open field west of a white house </p>
+      <p class="bloggin">I'm going to make a choose your own adventure game in Sprig.</p>
+        <p class="bloggin">It's going to be two simple sprites. You choose one, and then they're replaced by two more. That's it. For now I know that's likely complex enough-- there's no need for me to add a score or inventory or even backtracking. You make choices and move on.
+        </p>
+      </article>
+      <article>
+        <p class="date">12.03.22</p>
+        <p class="blogtitle">This is what you get for having no plans</p>    
+      <p class="bloggin">I start digging through the current <a href="https://sprig.hackclub.com/gallery">Sprig games</a> to find one that does something similar to what I need (namely swap a sprite on a key input). I lose myself in other people's projects for awhile. It's just so fantastic to see everyone's code. I truly understand maybe 20% of it, though can grok most of it enough to know what it's doing.</p>
+      <p class="bloggin">None of the curent games quite do I want, so I delve into <a href="https://editor.sprig.hackclub.com/">our toolkit</a>. Most of it I can understand, except the section titles baffle me. For example, <b>setBackground(bitmapKey)</b> Tiles a bitmap as the background of the game: <b>setBackground(spriteKey)</b>. I don't know what these Keys are.</p>      
+      <p class="bloggin">I figure out how to create a map, my first two sprites. I figure out how to replace sprites with others onInput. It doesn't work without clearTile first, and I'm thinking that maybe this there's the ability to layer sprites and then reorder them, which would be another way to create this game. I get the swap working! These small wins are so addictive, but as I'm progressing just to get this small thing to work, I'm aware that this isn't likely going to be the way forward for consecutive choices in the game. </p> 
+      <p class="bloggin">I really haven't thought the larger logic of my game through at all. </p>       
+    </article>
  </body>
 </html>
