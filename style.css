@@ -8,6 +8,18 @@ body{
     background-color:#63b7be;
 }
 
+path{
+    stroke-dasharray: 1000;  
+    animation: dash 5s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+
+
 article {
     max-width: 80ch
 }
@@ -22,12 +34,21 @@ h1 {
     font-palette: --nabla 
 }
 
+
+
 .blogtitle {
     color:#166826;
 	font-family: 'Duru Sans', sans-serif;
 	font-size: 14px;
     line-height: 30%
     }
+
+    .bigblogtitle {
+        color:#166826;
+        font-family: 'Duru Sans', sans-serif;
+        font-size: 64px;
+        
+        }
 
     ul {font-family: 'Duru Sans', sans-serif;
         font-size: 14px;
