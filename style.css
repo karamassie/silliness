@@ -15,10 +15,21 @@ path{
 
 @keyframes dash {
   to {
-    stroke-dashoffset: 1000;
+    stroke-dashoffset: 2000;
   }
 }
+/* 
+patheyes{
+    stroke-dasharray: 500;
+    animation: dash2 5s linear backwards;
+}
 
+@keyframes dash2 {
+to {
+    stroke-dashoffset: 500 ;
+}
+}
+ */
 
 article {
     max-width: 80ch
